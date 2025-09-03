@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h1 {
+  margin-bottom: 30px;
+}
+
+.add-todo {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.add-todo input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  min-width: 300px;
+}
+
+.add-todo button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-todo button:hover {
+  background-color: #4fa8c5;
+}
+
+.todo-list {
+  width: 100%;
+  max-width: 500px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #3a3f47;
+  border-radius: 4px;
+}
+
+.todo-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+
+.todo-item span {
+  flex: 1;
+  text-align: left;
+  font-size: 16px;
+}
+
+.todo-item span.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.todo-item button {
+  padding: 5px 10px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.todo-item button:hover {
+  background-color: #ff5252;
+}
